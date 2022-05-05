@@ -1,0 +1,19 @@
+#emptycartheader{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 8%;
+    max-height: 60px;
+    min-height: 60px;
+    padding-right: 40%;
+}
+#logo{
+    height: 60px;
+    align-self: center;
+}
+#emptycart{
+    height: 57px;
+}
+#emptycartbody{
+    text-align: center;
+    padding-top: 150px;
+}
