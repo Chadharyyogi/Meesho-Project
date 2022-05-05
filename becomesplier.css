@@ -1,0 +1,254 @@
+#container{
+    font-family: 'Roboto', sans-serif;
+ }
+ #comb{
+     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+ }
+ #id1 {
+   
+     display: flex;
+     
+     justify-content: space-between;
+     width: 90%;
+     height: 50px;
+     margin: auto;
+ }
+ #id1>a{
+     margin-top: 10px;
+     text-decoration: none;
+ }
+ a{
+    text-decoration: none;
+ }
+ button{
+ 
+     height: 40px;
+     margin-top: 5px;
+     border-radius: 5px;
+ }
+ #btn1{
+    color: white;
+    background-color:#f05a9b ;
+ }
+
+
+ #btn12{
+   color: white;
+   border: 0;
+   background-color:#f05a9b ;
+ }
+ #btn2{
+    color: #f05a9b;
+    background-color: white;
+    width: 60px;
+ }
+ #class1{
+  
+    display: flex;
+    justify-content: space-between;
+ }
+ #mainsrc{
+   
+    text-align: center;
+    margin-top: 80px;
+ }
+ 
+ .cl1>input{
+ width: 300px;
+   height: 30px;
+   border-radius: 5px;
+ }
+ #class2{
+    
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-around;
+ }
+ #class2>div{
+   
+    text-align: center;
+ }
+ #class3{
+    text-align: center;
+ }
+ .cl2{
+    display: flex;
+    margin: auto;
+    
+    justify-content: space-around;
+ }
+ .cl2>div{
+    border-radius: 5px;
+    width: 20%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+ }
+ #class4{
+    text-align: center;
+ }
+ .cl3{
+ display: flex;
+    margin: auto;
+    
+    justify-content: space-around;
+ }
+ .cl3>div{
+ border-radius: 5px;
+    width: 20%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    text-align: left;
+ }
+ .cl3 img{
+    width:100%;
+ }
+ #class5{
+    text-align: center;
+ }
+ .cl4{
+    display: flex;
+    justify-content: space-around;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    text-align: left;
+ }
+ .cl4>div{
+    width: 10%;
+ }
+ #class6{
+    
+    height: 200px;
+    padding-left: 20px;
+    border-radius: 5px;
+    background-image: url("https://lh3.googleusercontent.com/tH2ZDK7RCB81nFA0gFMgGhN6UgZvx0XayjIxRak04V5msFl70FZkufJNfq5FYNgHLfUJdYd0gLRP4QLU83olmqcF_AEnIKKj9syCDc4");
+ }
+ #class7{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+ }
+ #mainsrc{
+    padding-top: 50px;
+ }
+ @media only screen and (min-width: 0px) and (max-width: 375px) {
+   #container{
+      width: auto;
+   }
+    #mainsrc {
+    
+    display: grid;
+    grid-template-columns: auto ;
+    
+    
+    justify-content: space-evenly;
+    }
+    a{
+       color: black;
+       font-style: normal;
+    }
+    #class2 {
+    
+       display: grid;
+       grid-template-columns: auto ;
+       
+       
+       justify-content: space-evenly;
+       }
+       #class1 {
+    
+          display: grid;
+          grid-template-columns: auto auto;
+          
+          
+          justify-content: space-evenly;
+          }
+        .cl2 {
+          width: auto;
+             display: grid;
+             grid-template-columns: auto  ;
+             
+             
+             justify-content: space-evenly;
+        }
+        .cl2>div{
+          width: auto;
+        }
+        .cl3 {
+    
+                display: grid;
+                grid-template-columns: auto ;
+                
+                
+                justify-content: space-evenly;
+         } 
+        .cl4 {
+    
+                   display: grid;
+                   grid-template-columns: auto  ;
+                   
+                   
+                   justify-content: space-evenly;
+          } 
+          #class7{
+             display: grid;
+                   grid-template-columns: auto ;
+                   
+                   
+                   justify-content: space-evenly;
+          }     
+ }
+ @media only screen and (min-width: 375px) and (max-width: 768px) {
+ 
+    #mainsrc {
+    
+       display: grid;
+       grid-template-columns: auto ;
+       
+       
+       justify-content: space-evenly;
+       }
+       #class2 {
+       
+          display: grid;
+          grid-template-columns: auto auto;
+          
+          
+          justify-content: space-evenly;
+          }
+          #class1 {
+       
+             display: grid;
+             grid-template-columns: auto auto;
+             
+             
+             justify-content: space-evenly;
+             }
+           .cl2 {
+               
+                display: grid;
+                grid-template-columns: auto auto ;
+                grid-template-rows: auto auto;
+                
+                justify-content: space-evenly;
+           }
+           .cl3 {
+       
+                   display: grid;
+                   grid-template-columns: auto auto;
+                   
+                   
+                   justify-content: space-evenly;
+            } 
+           .cl4 {
+       
+                      display: grid;
+                      grid-template-columns: auto auto ;
+                      
+                      
+                      justify-content: space-evenly;
+             } 
+             #class7{
+                display: grid;
+                      grid-template-columns: auto ;
+                      
+                      
+                      justify-content: space-evenly;
+             }     
+    }
