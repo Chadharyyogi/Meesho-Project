@@ -1,0 +1,201 @@
+     /* ======================head css part start ===========*/
+     .head_container{
+        border:1px solid lightgrey ;
+        height: 90px;
+        border-left: none;
+        border-right: none;
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+    }
+    .head_container>div{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        
+    }
+    #head_input{
+        border: 1px solid lightgrey;
+        border-top-left-radius: 8px;
+        border-bottom-left-radius: 8px;
+        display: inline-block;
+        padding: 6px;
+        height: 50px;
+        margin:auto;
+        margin-right: 0px;
+        width: 350px;
+        font-size: 17px;
+        /* border-right: none; */
+    }
+    #head_search {
+        height: 64.3px;
+        width: 40px;
+        float: right;
+        padding: 6px;
+        margin: auto;
+        margin-left: 0px;
+        background:white;
+        font-size: 25px;
+        border: 1px solid lightgrey;
+        border-left: none;
+        border-top-right-radius: 8px;
+        border-bottom-right-radius: 8px;
+        cursor: pointer;
+    }
+    #head_search:hover {
+        background: white;
+    }
+    a{
+        text-decoration: none;
+        color: grey;
+    }
+    .head_b1{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: #f43397;
+        line-height: 1px;
+        margin-right: 20px;
+        font-size: 25px;
+        padding-right: 10px;
+    }
+    .head_b2{
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        
+    }
+    .head_b4,.head_b3,.head_b5,.head_b6{
+        width: 50px;
+        font-size:20px ;
+        padding-left: 70px; 
+    }
+    .head_subMenu{
+        border:1px solid lightgrey ;
+        height: 60px;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        display: flex;
+        gap: 10px;
+        justify-content: space-evenly;
+        flex-direction: row;
+        text-align: center;
+    }
+    .head_subMenu>div{
+        height: 100%;
+        width: auto;
+        display: flex;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 20px;
+        align-items: center;
+    }
+    .head_subMenu>div:hover{
+        background-color: white;
+        color: #f43397;
+        font-weight: bold;
+        border-bottom: 4px solid;
+    }
+    #meesho_logo{
+        margin-left: 40px;
+    }
+    .cart,.user{
+        font-size: 35px;
+        color: grey;
+    }
+    #head_user_name{
+        color: black;
+    }
+    .fa-mobile{
+        color: black;
+    }
+    sup{
+        color: red;
+    }
+    /* =======================head css end======================= */
+    
+             #startdiv{
+                padding-left: 50px;
+            }
+            #container{
+                display: grid;
+                gap: 10px;
+                grid-template-columns: auto auto auto auto;
+                width: 98%;
+                padding-left: 15px;
+            }
+            #container>div{
+                width: 20% 20% 20% 20%;
+                border: 1px solid rgb(240, 238, 235);
+                box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+                margin:10px;
+            }
+    
+            .box{
+                max-width: 300px;
+                height: 500px;
+                font-size: 20px;
+            }
+            .innerbox{
+                height: 200px;
+                line-height: 10px;
+                padding-left: 20px;
+                max-width: 300px;
+                margin-bottom: 200px;
+            }
+            .box>img{
+                height: 300px;
+                width: 100%;
+            }
+            p{
+                line-height: 20px;
+            }
+            #product_name{
+                color: grey;
+                font-size: 17px;
+            }
+            #product_price{
+                font-weight: bold;
+                font-size: 25px;
+                
+            }
+            .orignal_price{
+                text-decoration:line-through;
+                font-weight: lighter;
+                font-size: 25px;
+                padding: 4%;
+                font-style: italic;
+                color: grey;
+            }
+            #percentage_off{
+                color: green;
+                font-size:25px ;
+                font-style: normal;
+            }
+            .percent{
+                color: lightgreen;
+                font-style: italic;
+                font-size: 18px;
+                
+            }
+            #dicount{
+                font-size: 17px;
+                color: grey;
+            }
+            #delivery{
+                color: grey;
+    
+            }
+            .fa-tags{
+                color: green;
+            }
+
+            .sort{
+                margin-top: 15px;
+                height: 30px;
+                font-size: 20px;
+                border-radius: 5px;
+                text-align: center;
+                color: #f43397;
+                margin-left: 50px;
+            }
