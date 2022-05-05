@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+    <div id="navbar">
+     <div class="meesho">
+         <img src="https://tse3.mm.bing.net/th?id=OIP.jHb2K9iBd6eLtuKBCiRERgHaB3&pid=Api&P=0&w=502&h=127" alt="">
+     </div>
+     <div class="search_bar">
+        <input placeholder="Try Saree,Kurti or Search by Product Code" id="name" type="text" />
+     </div>
+     <div class="mobile_logo">
+       <img src="https://cdn-icons-png.flaticon.com/128/709/709711.png" alt="">
+      
+       <p>Download <br> App</p>
+     </div>
+     
+     <div class="supplier">
+        <img src="https://cdn-icons.flaticon.com/png/128/649/premium/649686.png?token=exp=1651566295~hmac=484607c87f480cd081b6053787cb079b" alt="">
+        <p>Become a <br>Supplier</p>
+     </div>
+    </div>
+   <div id="main_div">
+       <div>
+         <div class="chota_div">
+             <img src="https://images.meesho.com/images/marketing/1648820929975.jpeg" alt="">
+         </div>
+         <div class="down_div">
+             <p>Sign Up to view your profile</p>
+             <p class="country">Country</p>
+            <h3>In +91</h3>
+            <div class="mobile_number">
+               
+                <form id="form">
+       
+                    <input id="mobile_number" placeholder="Mobile Number" type="text">
+                    <input  id="submit" type="Submit" value="Send OTP">
+                </form>
+            </div>
+           
+          <p class="footer_para">By countinuing,you agree to Meesho's</p>
+          <p class="tearms_condtion">Terms & Condition</p>
+          <p class="and">and</p>
+          <p class="privacy">Privacy Policy</p>
+         </div>
+        
+       </div>
+   </div>
+   
+</body>
+</html>
+<script>
+    var form=document.querySelector("form");
+    var arr=JSON.parse(localStorage.getItem("userdata"))||[];
+   
+form.addEventListener("submit",function(event){
+  event.preventDefault();
+
+
+  var data={
+    mobile:form.mobile_number.value,
+    
+  
+  };
+  arr.push(data)
+  if(data.mobile=="123456789"){
+    alert("OTP Send Successfully");
+    window.location.href="otp.html"
+  }else{
+    alert("please Enter A valid Mobile Number")
+  }
+  
+  
+  console.log(arr);
+  
+  localStorage.setItem("userdata",JSON.stringify(arr));
+  
+})
+</script>
