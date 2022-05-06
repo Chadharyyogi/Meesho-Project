@@ -71,6 +71,30 @@ var data = JSON.parse(localStorage.getItem("Allshoes")) || [
         price: 510,
         discount: " ₹45 discount on 1st order",
     },
+    {
+        image_url: "https://images.meesho.com/images/products/95507410/fmato_512.jpg",
+        product_n: "Fashionable Fashionista Women Jeggings",
+        price: 326,
+        discount: " ₹48 discount on 1st order",
+    },
+    {
+        image_url: "https://images.meesho.com/images/products/97784614/p3usl_512.jpg",
+        product_n: "Womens Cotton Jeggins ankle length pack of 3",
+        price: 437,
+        discount: " ₹40 discount on 1st order",
+    },
+    {
+        image_url: "https://images.meesho.com/images/products/23033246/7e89b_512.jpg",
+        product_n: "Yoga pants_combo pack of 3",
+        price: 472,
+        discount: " ₹40 discount on 1st order",
+    },
+    {
+        image_url: "https://images.meesho.com/images/products/68048093/enp4x_512.jpg",
+        product_n: "Jeggings",
+        price: 528,
+        discount: " ₹45 discount on 1st order",
+    },
 ];
 function SearchByPrice() {
     var selected = document.getElementById("Sort_by_price").value;

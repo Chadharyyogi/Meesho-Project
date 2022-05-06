@@ -71,6 +71,30 @@ var data = JSON.parse(localStorage.getItem("Jewellery")) || [
         price: 191,
         discount: " ₹28 discount on 1st order",
     },
+    {
+        image_url: "https://images.meesho.com/images/products/51557089/acl2p_512.jpg",
+        product_n: "Wonderful Earrings & Studs",
+        price: 143,
+        discount: " ₹21 discount on 1st order",
+    },
+    {
+        image_url: "https://images.meesho.com/images/products/79169384/th9jw_512.jpg",
+        product_n: "Excusive combo earrings box",
+        price: 265,
+        discount: " ₹26 discount on 1st order",
+    },
+    {
+        image_url: "https://images.meesho.com/images/products/60130811/2v8xd_512.jpg",
+        product_n: "SJ544",
+        price: 186,
+        discount: " ₹27 discount on 1st order",
+    },
+    {
+        image_url: "https://images.meesho.com/images/products/62420406/adjyn_512.jpg",
+        product_n: "SHINY GHUNGROO PAYAL/ANKLETS",
+        price: 168,
+        discount: " ₹25 discount on 1st order",
+    },
 
 ];
 function SearchByPrice() {
