@@ -1,0 +1,33 @@
+#delivertothisaddress{
+  
+    padding: 10px 15px 10px 15px;
+    border: 0px;
+    margin-top: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+button:hover{
+    background-color:red;
+    color: antiquewhite;
+
+}
+ 
+/* #pricedetails_right{
+    border: 1px solid green;
+} */ 
+
+
+#cartbody{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    width: 25%;
+    margin: auto;
+    border-radius: 20px;
+    padding: 20px;
+}
+h4{
+    margin-bottom: 15px;
+}
+
+#addressleft{
+  align-items: center;
+}

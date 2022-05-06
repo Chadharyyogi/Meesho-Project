@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signup</title>
+    <style>
+        body{
+            background-color: rgb(253,234,240);
+        }
+        #container{
+           
+            width: 30%;
+            height: 900px;
+            margin: auto;
+            margin-top: 10%;
+            background-color:white ;
+        }
+        img{
+            width: 100%;
+            border-radius: 8px 8px 0px 0px;
+        }
+        #num{
+            margin-top: 10%;
+            margin-left: 20px;
+        }
+        #num>h1{
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-left: 40px;
+        }
+        #num>input{
+            padding: 8px;
+            border: none;
+            border-bottom: 1px solid grey;
+            width: 60%;
+            margin-left: 40px;
+            margin-bottom: 10px;
+        }
+        #num>p{
+            margin-left: 40px;
+            margin-bottom: 0px;
+            color: grey;
+        }
+        #num>h2{
+            color: rgb(244,51,151);
+            font-size: 15px;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-left: 40px;
+        }
+        span{
+            margin-left: 40px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        button{
+            background-color: rgb(244,51,151);
+            color: white;
+            padding: 12px ;
+            width: 75%;
+            border: none;
+            border-radius: 5px;
+            margin-top: 50px;
+            margin-left: 40px;
+            font-weight: bolder;
+            
+        }
+        #end{
+            margin: auto;
+            margin-top: 300px;
+            margin-left: 20%;
+        }
+        #end>p>a{
+            text-decoration: none;
+            color:rgb(244,51,151)
+        }
+        
+    </style>
+</head>
+<body>
+    <div id="container"> 
+        <img src="https://meesho.com/_next/static/images/authTopBanner-6792b3e68f63d623b8ba99556d38d56d.jpg" alt="banner">
+        <div id="num">
+            <h1>Enter OTP sent to 9956748360</h1>
+            <h2>CHANGE NUMBER</h2>
+            <input placeholder="Enter OTP" type="tel"> <br>
+            <h2>CHANGE NUMBER</h2>
+            <button onclick="verifyOtp()">Verify</button>
+        </div>
+        <div id="end">
+            <p>By continuing, you agree to Meesho's </p>
+            <p><a href="#">Terms & conditions</a> and <a href="#">Privacy Policy</a></p>
+        </div>
+    </div>
+</body>
+</html>
+<script>
+    function verifyOtp(){
+        alert("Successful")
+        window.location.href="cart.html"
+    }
+</script>
