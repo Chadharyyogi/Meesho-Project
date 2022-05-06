@@ -9,13 +9,13 @@ var data = JSON.parse(localStorage.getItem("Allshoes")) || [
         image_url: "https://images.meesho.com/images/products/12096538/23a06_512.jpg",
         product_n: "trendy Fancy Rayon Women's Palazzos combo 2pes",
         price: 366,
-        discount: "₹50 discount on 1st order",
+        discount: "₹40 discount on 1st order",
     },
     {
         image_url: "https://images.meesho.com/images/products/2087003/1_512.jpg",
         product_n: "Fancy Women's Satin Night Dress",
         price: 272,
-        discount: " ₹39 discount on 1st order",
+        discount: " ₹40 discount on 1st order",
     },
     {
         image_url: "https://images.meesho.com/images/products/60675448/edo9x_512.jpg",
