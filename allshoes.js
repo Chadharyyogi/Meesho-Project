@@ -17,6 +17,62 @@ var data = JSON.parse(localStorage.getItem("AllShoes")) || [
         price:"388",
         discount:" ₹50 discount on 1st order",
     },
+    {
+        image_url:"https://images.meesho.com/images/products/98910664/o7eff_512.jpg",
+        product_n:"Uniq Trendy Men Sports Shoes",
+        price:"300",
+        discount:" ₹30 discount on 1st order",
+    },
+    {
+        image_url:"https://images.meesho.com/images/products/23507720/0752b_512.jpg",
+        product_n:"Abada Fabulous Men Sports Shoes",
+        price:"436",
+        discount:" ₹30 discount on 1st order",
+    },
+    {
+        image_url:"https://images.meesho.com/images/products/67917688/iulgn_512.jpg",
+        product_n:"Morder Fabulous Men Sports Shoes",
+        price:"396",
+        discount:" ₹50 discount on 1st order",
+    },
+    {
+        image_url:"https://images.meesho.com/images/products/48511147/arlyw_512.jpg",
+        product_n:"Abada Graceful Men Sports Shoes",
+        price:"429",
+        discount:" ₹30 discount on 1st order",
+    },
+    {
+        image_url:"https://images.meesho.com/images/products/104082467/p25as_512.jpg",
+        product_n:"Gorgues Women Jutis.",
+        price:"144",
+        discount:" ₹20 discount on 1st order",
+    },
+    {
+        image_url:"https://images.meesho.com/images/products/41335194/l38gn_512.jpg",
+        product_n:"Styles Trendy Men Wallets",
+        price:"144",
+        discount:" ₹25 discount on 1st order",
+    },
+    {
+        image_url:"https://images.meesho.com/images/products/10837931/82554_512.jpg",
+        product_n:"FashionableTrendy Men Wallets",
+        price:"190",
+        discount:" ₹30 discount on 1st order",
+    },
+    {
+        image_url:"https://images.meesho.com/images/products/98519352/dmfn9_512.jpg",
+        product_n:"FashionableTrendy Men Wallets",
+        price:"229",
+        discount:" ₹30 discount on 1st order",
+    },
+    {
+        image_url:"https://images.meesho.com/images/products/44450754/pcmng_512.jpg",
+        product_n:"fashionanleTrendy Men Wallets",
+        price:"308",
+        discount:" ₹40 discount on 1st order",
+    },
+    
+
 ];
 function SearchByPrice() {
     var selected = document.getElementById("Sort_by_price").value;

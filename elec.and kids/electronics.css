@@ -199,3 +199,13 @@ sup{
             color: #f43397;
             margin-left: 50px;
         }
+
+        @media all and (min-width: 100px) and (max-width: 600px){
+            #container{
+                display: grid;
+                gap: 10px;
+                grid-template-columns: auto auto ;
+                width: 98%;
+                padding-left: 15px;
+            }
+        }
