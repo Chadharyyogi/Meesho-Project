@@ -17,6 +17,61 @@ var data = JSON.parse(localStorage.getItem("Jewellery")) || [
         price:498,
         discount:" ₹50 discount on 1st order",
     },
+    {
+        image_url:"https://images.meesho.com/images/products/69707699/t2xcw_512.jpg",
+        product_n:"Printopolis Designer Back Cover for Mi Redmi Y1",
+        price:145,
+        discount:" ₹25 discount on 1st order",
+    },
+    {
+        image_url:"https://images.meesho.com/images/products/69261398/kffly_512.jpg",
+        product_n:"Cases & Covers",
+        price:176,
+        discount:" ₹30 discount on 1st order",
+    },
+    {
+        image_url:"https://images.meesho.com/images/products/24570059/d42c4_512.jpg",
+        product_n:"Modern Table Lamps",
+        price:260,
+        discount:" ₹45 discount on 1st order",
+    },
+    {
+        image_url:"https://images.meesho.com/images/products/94659430/9wpph_512.jpg",
+        product_n:"BLUEMIX STAR 4 JAR MIXER GRINDER WITH HIGH PERFORMANCE MOTOR 24 MONTH LIMITED WARRANTY",
+        price:1600,
+        discount:" ₹50 discount on 1st order",
+    },
+    {
+        image_url:"https://images.meesho.com/images/products/82117388/1jbp9_512.jpg",
+        product_n:"Amazing Portable Electric Charging Fan(Multicolor)",
+        price:777,
+        discount:" ₹50 discount on 1st order",
+    },
+    {
+        image_url:"https://images.meesho.com/images/products/34204265/5w2jy_512.jpg",
+        product_n:"Fancy Mobile Holders",
+        price:132,
+        discount:" ₹30 discount on 1st order",
+    },
+    {
+        image_url:"https://images.meesho.com/images/products/21374937/69e02_512.jpg",
+        product_n:"Fancy cool product",
+        price:1167,
+        discount:" ₹50 discount on 1st order",
+    },
+    {
+        image_url:"https://images.meesho.com/images/products/100293445/b2jvv_512.jpg",
+        product_n:"HUG PUPPY Bluetooth ID116 ATQ Wireless Smart Fitness Watch ",
+        price:412,
+        discount:" ₹50 discount on 1st order",
+    },
+    {
+        image_url:"https://images.meesho.com/images/products/27738176/7cafc_512.jpg",
+        product_n:"Jprindm Mobile Back Cover for Realme 5 / 5s / 5i / Narzo 10",
+        price:182,
+        discount:" ₹31 discount on 1st order",
+    },
+
 ];
 function SearchByPrice() {
     var selected = document.getElementById("Sort_by_price").value;
@@ -34,6 +89,7 @@ function SearchByPrice() {
     }
     
     console.log("x",data);
+    displayItem(data);
 }
 
 var body = document.querySelector("body");
