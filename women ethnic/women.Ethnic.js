@@ -17,6 +17,63 @@ var data = JSON.parse(localStorage.getItem("AllCloth")) || [
         price:567,
         discount:" ₹50 discount on 1st order",
     },
+    {
+        image_url:"https://images.meesho.com/images/products/17325771/f7461_512.jpg",
+        product_n:"Vimalnath Synthetics Printed Bhagalpuri Saree",
+        price:418,
+        discount:" ₹50 discount on 1st order",
+    },
+    {
+        image_url:"https://images.meesho.com/images/products/6536226/4db6c_512.jpg",
+        product_n:"Classy Women Saree",
+        price:551,
+        discount:" ₹40 discount on 1st order",
+    },
+    {
+        image_url:"https://images.meesho.com/images/products/62869648/bgju9_512.jpg",
+        product_n:"Shree Krishna Handicrafts Stylish Women's Cotton Saree With Blouse",
+        price:573,
+        discount:" ₹40 discount on 1st order",
+    },
+    {
+        image_url:"https://images.meesho.com/images/products/97947179/cpxp0_512.jpg",
+        product_n:"Net Saree With Butterfly Accent",
+        price:373,
+        discount:" ₹40 discount on 1st order",
+    },
+    {
+        image_url:"https://images.meesho.com/images/products/42353132/cpeda_512.jpg",
+        product_n:"Jivika Superior Women Kurta Sets",
+        price:350,
+        discount:" ₹50 discount on 1st order",
+    },
+    {
+        image_url:"https://images.meesho.com/images/products/101940010/wnjxx_512.jpg",
+        product_n:"NEW PRINTED KURTA SET",
+        price:663,
+        discount:" ₹50 discount on 1st order",
+    },
+    {
+        image_url:"https://images.meesho.com/images/products/82210069/m8qdz_512.jpg",
+        product_n:"Designer Russel Dupatta",
+        price:149,
+        discount:" ₹30 discount on 1st order",
+    },
+    {
+        image_url:"https://images.meesho.com/images/products/56722/1_512.jpg",
+        product_n:"Charming Colorful Pure Chiffon Dupatta",
+        price:222,
+        discount:" ₹40 discount on 1st order",
+    },
+    {
+        image_url:"https://images.meesho.com/images/products/92597110/xsv1f_512.jpg",
+        product_n:"ASSORTED COLORS CHIFFON MOTI DUPATTA PACK OF 10",
+        price:425,
+        discount:" ₹40 discount on 1st order",
+    },
+
+
+
 ];
 function SearchByPrice() {
     var selected = document.getElementById("Sort_by_price").value;
