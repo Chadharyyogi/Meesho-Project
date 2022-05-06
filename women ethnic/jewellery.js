@@ -63,7 +63,7 @@ function displayItem(data){
         localStorage.setItem("cartItem",JSON.stringify(item))
         window.location.href="meesho_productDetail.html"
         // console.log(item)
-    })
+    }) 
 
     mainDiv.append(box);
     var image = document.createElement("img");
