@@ -1,87 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cart</title>
-    <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/8/80/Meesho_Logo_Full.png"
-        type="image/x-icon">
-    <link rel="stylesheet" href="Meesho-Project\cart.css">
+    <script src='https://kit.fontawesome.com/bdfe5144d7.js' crossorigin='anonymous'></script>
+    <title>Document</title>
+   <link rel="stylesheet" href="Meesho-Project\cart.css">
+        
 </head>
-
 <body>
-    <div id="cartheader">
-        <p id="logo"><a href="https://meesho.com"><img src="https://tse3.mm.bing.net/th?id=OIP.jHb2K9iBd6eLtuKBCiRERgHaB3&pid=Api&P=0&w=481&h=121" alt="meesho logo" height="70%"></a></p>
-        <p id="cart"><img src="../img/header_empty_cart.png" alt="" height="90%"></p>
-    </div>
-    <hr>
-    <div id="cartbody">
-        <div id="items_left">
-            <span id="cartspan">Cart</span>
-            <span id="itemspan"># Item</span>
-            <br>
-            <div id="itemslist">
-                <div id="firstdiv">
-                    <div id="itemimage">
-                        <div id="itemimage1"><img src="https://i.pinimg.com/564x/87/76/2b/87762bef8da2a3ec05f034c39b23c5ac.jpg" style="width: 60px; height: 100px;"></img></div>
-                    </div>
-                    <div id="itemnameqty">
-                        <h3>Myra Attractive Sarees</h3><br>
-                        Size: Free Qty:1 <br>
-                       ₹619
-                    </div>
-                    <div id="edititem"><button id="editbutton">EDIT</button></div>
-
-                </div>
-                <hr>
-                <div id="supplierinfo">
-                    Supplier : AA-HA!!
-                </div>
-            </div>
-
+    <!-- head html part start -->
+    <div class="head_container">
+        <div class="head_box head_b1"><h1 id="meesho_logo">meesho</h1></div>
+        <div class="head_box head_b2">
+            <input id="head_input" type="text" placeholder="Try Saree, Kurti or Search by product Code" name="search">
+            <button type="submit" id="head_search"><i class="fa fa-search" ></i></button>
         </div>
-        <div id="pricedetails_right">
-            <table id="pricedetails">
-                <thead>
-                    <th class="column1"; style="color: black; font-size: 20px;">Price Details</th>
-                    <th class="column2"></th>
-                </thead>
-                <tbody>
-                    <tr><td class="column1">Product Charges</td>
-                    <td class="column2">₹619</td></tr>
-                    <tr>
-                        <td class="column1">Delivery Charges</td>
-                        <td class="column2">+₹0</td>
-                    </tr>
-                    <tr id="codcharges" ><td class="column1">COD Charges</td>
-                    <td class="column2">+₹0</td></tr>
-                    <tr id="Discount" ><td class="column1">1st Order Discount</td>
-                        <td class="column2">-₹100</td></tr>
-                    
-                </tbody>
-            </table>
+        <div class="head_box head_b3"><a href="">SignUp</a></div>
+        <div class="head_box head_b4"><a href="">Login</a></div>
+        <div class="head_box head_b5"><a href=""><i class="fa fa-user user"></i> <br>Profile</a></div>
+        <div class="head_box head_b6"><a href=""><i class="fa fa-cart-plus cart"><sup id="sp">1</sup></i> <br> Cart</a></div>
+    </div>
+    <div class="head_subMenu">
+        <div class="head_description head_d1">Women Ethnic</div>
+        <div class="head_description head_d2">Women Western</div>
+        <div class="head_description head_d3">Jewellery & Accessories</div>
+        <div class="head_description head_d4">Men</div>
+        <div class="head_description head_d5">Beauty & Health</div>
+        <div class="head_description head_d6">Bags & Footwear</div>
+        <div class="head_description head_d7">Home & Kitchen</div>
+        <div class="head_description head_d8">Kids</div>
+        <div class="head_description head_d9">Electronics</div>
+    </div>
+
+    <!-- head html part end -->
+
+
+    <div class="container">
+        <h1 style="margin-left: 10%; padding-top: 40px;">Cart:</h1>
+        <div class="box box1">
+            <img class="prod" id="pro_img" src="https:via.placeholder.com/80x100" alt="">
+            <p class="prod" > <span id="prod_name">Product_name</span> 
+               <br><span>size:</span> <span id="product_size">8</span> <br>
+              <span>Qty: </span><span id="product_qty">1</span> <br> 
+              <span>₹ </span><span class="product_price" id="product_price">180</span>
+            </p>
+         <hr>
+           <p id="supplier">Supplier : PRAKRUTHI COSMETICS AND SALOON EQUIPMENT</p>
+        </div>
+        <div class="box box2">
+            <h1>Price Details</h1>
+            <p>
+                Product Charge <span>₹</span> <span class="product_price leftA" id="t_price">180</span>
+            </p>
+            <p>
+                Delivery Charge <span class="leftA">+₹80</span>
+            </p>
+            <p>
+                COD Charge <span class="leftA ls">+₹0</span>
+            </p>
+            <p>
+                1st Order Discount <span class="leftA lm">-₹ 100</span>
+            </p>
             <hr>
-            <table id="totalprice">
-                <th class="column1" style="font-size: 20px;
-                    color: black;">Order Total</th>
-                <th class="column2" style="font-size: 20px;
-                    color: black;"></th>
-            </table>
-            <p style="text-align: center; background-color: #f9f9f9; height: 20px;">Clicking on 'Continue' will not
-                deduct any money</p>
-            <a href="Meesho-Project\address.html" style=" text-decoration: none;">
-                <div
-                    style="background-color: #f43397; color: white; height: 50px; font-size: 30px; text-align: center; padding-top: 3%; border-radius: 5px;">
-                    Continue</div>
-            </a>
-            <img src="https://images.meesho.com/images/marketing/1588578650850.png" alt="Meesho safety"
-                style="width: 100%;">
+            <h2>
+                Order Total <span>₹</span> <span id="total_price" class="leftA ld">206</span>
+            </h2>
+            <p style="font-size:13px;">Clicking on ‘Continue’ will not deduct any money</p>
+            <a href="Meesho-Project\address.html"><button>Continue</button></a>
+            <img style="width: 270px; margin-top: 10px;" src="https://images.meesho.com/images/marketing/1588578650850.png" alt="">
         </div>
     </div>
 </body>
-
 </html>
+<script src="cart.js">
+   
 
-<script src="cart.js"></script>
+
+    
+</script>

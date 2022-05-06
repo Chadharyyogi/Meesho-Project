@@ -17,6 +17,60 @@ var data = JSON.parse(localStorage.getItem("Jewellery")) || [
         price:450,
         discount:" ₹25 discount on 1st order",
     },
+    {
+        image_url:"https://images.meesho.com/images/products/3600247/1_512.jpg",
+        product_n:"Trendy Velvet Printed ",
+        price:468,
+        discount:"₹30 discount on 1st order",
+    },
+    {
+        image_url:"https://images.meesho.com/images/products/7691630/8e390_512.jpg",
+        product_n:"stylis cotton 75 X 54..",
+        price:393,
+        discount:"₹35 discount on 1st order",
+    },
+    {
+        image_url:"https://images.meesho.com/images/products/3600800/1_512.jpg",
+        product_n:"Fancy Stylish Velvet Printed Badsheet",
+        price:410,
+        discount:" ₹50 discount on 1st order",
+    },
+    {
+        image_url:"https://images.meesho.com/images/products/3600163/1_512.jpg",
+        product_n:"Comphy Stylish Velvet Printed Badsheet",
+        price:422,
+        discount:"₹50 discount on 1st order",
+    },
+    {
+        image_url:"https://images.meesho.com/images/products/31113222/4a54d_512.jpg",
+        product_n:"SHOW PIECE",
+        price:203,
+        discount:"₹35 discount on 1st order",
+    },
+    {
+        image_url:"https://images.meesho.com/images/products/22981840/2aa91_512.jpg",
+        product_n:"Classic Unisex Decor",
+        price:350,
+        discount:" ₹25 discount on 1st order",
+    },
+    {
+        image_url:"https://images.meesho.com/images/products/35665245/1uxyz_512.jpg",
+        product_n:"home decor",
+        price:403,
+        discount:"₹35 discount on 1st order",
+    },
+    {
+        image_url:"https://images.meesho.com/images/products/24639995/08ec2_512.jpg",
+        product_n:"Fabulous Dream Catchers",
+        price:329,
+        discount:" ₹50 discount on 1st order",
+    },
+    {
+        image_url:"https://images.meesho.com/images/products/9543018/b5a29_512.jpg",
+        product_n:"Essential lunch Boxes",
+        price:310,
+        discount:" ₹50 discount on 1st order",
+    },
 ];
 function SearchByPrice() {
     var selected = document.getElementById("Sort_by_price").value;
