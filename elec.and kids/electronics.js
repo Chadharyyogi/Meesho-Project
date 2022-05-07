@@ -3,7 +3,7 @@ var data = JSON.parse(localStorage.getItem("Jewellery")) || [
         image_url:"https://images.meesho.com/images/products/65363405/6fajy_512.jpg",
         product_n:"Every Day Cable",
         price:201,
-        discount:"₹35 discount on 1st order",
+        discount:"₹40 discount on 1st order",
     },
     {
         image_url:"https://images.meesho.com/images/products/63772246/eyyet_512.jpg",
@@ -51,7 +51,7 @@ var data = JSON.parse(localStorage.getItem("Jewellery")) || [
         image_url:"https://images.meesho.com/images/products/34204265/5w2jy_512.jpg",
         product_n:"Fancy Mobile Holders",
         price:132,
-        discount:" ₹30 discount on 1st order",
+        discount:" ₹25 discount on 1st order",
     },
     {
         image_url:"https://images.meesho.com/images/products/21374937/69e02_512.jpg",
@@ -69,7 +69,7 @@ var data = JSON.parse(localStorage.getItem("Jewellery")) || [
         image_url:"https://images.meesho.com/images/products/27738176/7cafc_512.jpg",
         product_n:"Jprindm Mobile Back Cover for Realme 5 / 5s / 5i / Narzo 10",
         price:182,
-        discount:" ₹31 discount on 1st order",
+        discount:" ₹30 discount on 1st order",
     },
 
 ];
