@@ -131,7 +131,6 @@ mainDiv.setAttribute("id", "container");
 body.append(mainDiv);
 
 displayItem(data);
-
 function displayItem(data) {
     document.querySelector("#container").innerHTML = "";
     data.map(function (item) {
@@ -141,7 +140,7 @@ function displayItem(data) {
         box.addEventListener("click", function () {
             // addToCart1(item)
             localStorage.setItem("cartItem", JSON.stringify(item))
-            window.location.href = "meesho_productDetail.html";
+            window.location.href = "meesho_productDetail.html"
             // console.log(item)
         })
 
@@ -197,71 +196,5 @@ function displayItem(data) {
         delivery.textContent = "Delivery ₹80";
         innerbox.append(delivery);
 
-        function displayItem(data) {
-            document.querySelector("#container").innerHTML = "";
-            data.map(function (item) {
-                var box = document.createElement("div");
-                box.setAttribute("class", "box");
-
-
-                box.addEventListener("click", function () {
-                    // addToCart1(item)
-                    localStorage.setItem("cartItem", JSON.stringify(item))
-                    window.location.href = "meesho_productDetail.html"
-                    // console.log(item)
-                })
-
-                mainDiv.append(box);
-                var image = document.createElement("img");
-                image.setAttribute("src", item.image_url);
-                box.append(image);
-                var innerbox = document.createElement("div");
-                innerbox.setAttribute("class", "innerbox");
-                box.append(innerbox);
-                var product_name = document.createElement("p");
-                product_name.setAttribute("id", "product_name");
-                product_name.textContent = item.product_n;
-                innerbox.append(product_name);
-                var product_price = document.createElement("h3");
-                product_price.setAttribute("id", "product_price");
-                var Discount = Math.floor((item.price * 20) / (100));
-                product_price.textContent = (item.price - Discount);
-
-                var span = document.createElement("span");
-                span.setAttribute("class", "orignal_price");
-                //var s =item.price-100;
-                // var afterdis = +(item.price) + 100;
-                span.textContent = item.price;
-                product_price.append(span)
-
-                var span2 = document.createElement("span");
-                span2.setAttribute("id", "percentage_off");
-                span2.textContent = "20% off";
-                product_price.append(span2)
-
-
-
-                innerbox.append(product_price);
-                var discount = document.createElement("p");
-                discount.setAttribute("id", "discount");
-
-                var ita = document.createElement("i");
-                ita.setAttribute("class", "fa fa-tags percent");
-                discount.append(ita)
-
-                var poff = document.createElement("span");
-                poff.textContent = item.discount
-                discount.append(poff)
-
-                //discount.textContent=data[i].discount;
-                innerbox.append(discount);
-
-
-
-                var delivery = document.createElement("p");
-                delivery.setAttribute("id", "delivery");
-                delivery.textContent = "Delivery ₹80";
-                innerbox.append(delivery);
-
-            })
-        }
+    })
+}
