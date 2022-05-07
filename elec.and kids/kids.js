@@ -60,7 +60,7 @@ displayItem(data);
     box.addEventListener("click",function(){
         // addToCart1(item)
         localStorage.setItem("cartItem",JSON.stringify(item))
-        window.location.href="meesho_productDetail.html"
+        window.location.href="/Meesho-Project/meesho_productDetail.html"
         //console.log(item)
     })
 
