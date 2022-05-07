@@ -1,22 +1,101 @@
 var data = JSON.parse(localStorage.getItem("Jewellery")) || [
     {
-        image_url:"https://images.meesho.com/images/products/79816711/sk6ds_512.jpg",
-        product_n:"Designer Party Wear Long Back Earrings Set for Women and Girls",
-        price:190,
-        discount:"₹34 discount on 1st order",
+        image_url: "https://images.meesho.com/images/products/79816711/sk6ds_512.jpg",
+        product_n: "Designer Party Wear Long Back Earrings Set for Women and Girls",
+        price: 190,
+        discount: "₹34 discount on 1st order",
     },
     {
-        image_url:"https://images.meesho.com/images/products/89349647/dhxr0_512.jpg",
-        product_n:"Bracelet & Bangles",
-        price:296,
-        discount:"₹40 discount on 1st order",
+        image_url: "https://images.meesho.com/images/products/89349647/dhxr0_512.jpg",
+        product_n: "Bracelet & Bangles",
+        price: 296,
+        discount: "₹40 discount on 1st order",
     },
     {
-        image_url:"https://images.meesho.com/images/products/64773636/5z4iz_512.jpg",
-        product_n:"Silver Couple Ring Set",
-        price:194,
-        discount:" ₹25 discount on 1st order",
+        image_url: "https://images.meesho.com/images/products/64773636/5z4iz_512.jpg",
+        product_n: "Silver Couple Ring Set",
+        price: 194,
+        discount: " ₹25 discount on 1st order",
     },
+    {
+        image_url: "https://images.meesho.com/images/products/41922379/ghkms_512.jpg",
+        product_n: "Shimmering Fancy jewellery set",
+        price: 295,
+        discount: " ₹25 discount on 1st order",
+    },
+    {
+        image_url: "https://images.meesho.com/images/products/24050219/be00f_512.jpg",
+        product_n: "Elite Beautiful Jewellery Sets",
+        price: 385,
+        discount: " ₹30 discount on 1st order",
+    },
+    {
+        image_url: "https://images.meesho.com/images/products/74357615/rxchu_512.jpg",
+        product_n: "Women's Jewellery Set",
+        price: 169,
+        discount: " ₹30 discount on 1st order",
+    },
+    {
+        image_url: "https://images.meesho.com/images/products/82637913/qkw9d_512.jpg",
+        product_n: "Maddy Space Elite Designer Maangtika and Earrings Jewellery Set .",
+        price: 207,
+        discount: " ₹31 discount on 1st order",
+    },
+    {
+        image_url: "https://images.meesho.com/images/products/21436404/a7254_512.jpg",
+        product_n: "Allure Beautiful Bracelet & Bangles",
+        price: 162,
+        discount: " ₹15 discount on 1st order",
+    },
+    {
+        image_url: "https://images.meesho.com/images/products/81018544/gvqgo_512.jpg",
+        product_n: "Elite Beautiful Bracelet & Bangles",
+        price: 195,
+        discount: " ₹29 discount on 1st order",
+    },
+    {
+        image_url: "https://images.meesho.com/images/products/94123394/jre6k_512.jpg",
+        product_n: "Golden Hathphool",
+        price: 143,
+        discount: " ₹21 discount on 1st order",
+    },
+    {
+        image_url: "https://images.meesho.com/images/products/49628186/bltfi_512.jpg",
+        product_n: "Shimmering Chic Bracelet & Bangles",
+        price: 151,
+        discount: " ₹22 discount on 1st order",
+    },
+    {
+        image_url: "https://images.meesho.com/images/products/51491625/jvvxv_512.jpg",
+        product_n: "Elite Fancy Bracelet & Bangles",
+        price: 191,
+        discount: " ₹28 discount on 1st order",
+    },
+    {
+        image_url: "https://images.meesho.com/images/products/51557089/acl2p_512.jpg",
+        product_n: "Wonderful Earrings & Studs",
+        price: 143,
+        discount: " ₹21 discount on 1st order",
+    },
+    {
+        image_url: "https://images.meesho.com/images/products/79169384/th9jw_512.jpg",
+        product_n: "Excusive combo earrings box",
+        price: 265,
+        discount: " ₹26 discount on 1st order",
+    },
+    {
+        image_url: "https://images.meesho.com/images/products/60130811/2v8xd_512.jpg",
+        product_n: "SJ544",
+        price: 186,
+        discount: " ₹27 discount on 1st order",
+    },
+    {
+        image_url: "https://images.meesho.com/images/products/62420406/adjyn_512.jpg",
+        product_n: "SHINY GHUNGROO PAYAL/ANKLETS",
+        price: 168,
+        discount: " ₹25 discount on 1st order",
+    },
+
 ];
 function SearchByPrice() {
     var selected = document.getElementById("Sort_by_price").value;
@@ -119,6 +198,3 @@ function displayItem(data){
       
     })
 }
-
-
-

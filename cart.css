@@ -1,0 +1,182 @@
+.head_container{
+    border:1px solid lightgrey ;
+    height: 90px;
+    border-left: none;
+    border-right: none;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+ }
+ .head_container>div{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    
+ }
+ #head_input{
+    border: 1px solid lightgrey;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    display: inline-block;
+    padding: 6px;
+    height: 50px;
+    margin:auto;
+    margin-right: 0px;
+    width: 350px;
+    font-size: 17px;
+    /* border-right: none; */
+ }
+ #head_search {
+    height: 64.3px;
+    width: 40px;
+    float: right;
+    padding: 6px;
+    margin: auto;
+    margin-left: 0px;
+    background:white;
+    font-size: 25px;
+    border: 1px solid lightgrey;
+    border-left: none;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    cursor: pointer;
+ }
+ #head_search:hover {
+    background: white;
+ }
+ a{
+    text-decoration: none;
+    color: grey;
+ }
+ .head_b1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #f43397;
+    line-height: 1px;
+    margin-right: 20px;
+    font-size: 25px;
+    padding-right: 10px;
+ }
+ .head_b2{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    
+ }
+ .head_b4,.head_b3,.head_b5,.head_b6{
+    width: 50px;
+    font-size:20px ;
+    padding-left: 70px; 
+ }
+ .head_subMenu{
+    border:1px solid lightgrey ;
+    height: 60px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    display: flex;
+    gap: 10px;
+    justify-content: space-evenly;
+    flex-direction: row;
+    text-align: center;
+ }
+ .head_subMenu>div{
+    height: 100%;
+    width: auto;
+    display: flex;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+    align-items: center;
+ }
+ .head_subMenu>div:hover{
+    background-color: white;
+    color: #f43397;
+    font-weight: bold;
+    border-bottom: 4px solid;
+ }
+ #meesho_logo{
+    margin-left: 40px;
+ }
+ .cart,.user{
+    font-size: 35px;
+    color: grey;
+ }
+ /* head css end */
+ .box{
+    background-color: whitesmoke;
+    display: inline-block;
+    height: 500px;
+    width: 48%;
+    margin: auto;
+    vertical-align: top;
+ }
+ .box1{
+    height: 270px;
+    margin-left: 10%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    border-radius: 8px;
+ }
+ hr{
+    margin: 0;
+    padding: 0;
+ }
+ .prod{
+    vertical-align: top;
+    display: inline-block;
+    margin-top: 7%;
+    margin-left: 8%;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 30px;
+ }
+ img{
+    height:120px ;
+ }
+ span{
+    color: gray;
+ }
+ #supplier{
+    color: gray;
+    padding-left: 20px;
+ }
+ .box2{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    padding-left:30px ;
+    width: 300px;
+    margin-left: 50px;
+ }
+ p{
+    color: grey;
+ }
+ .leftA{
+    padding-left: 45px;
+    text-align: left;
+    color: red;
+ }
+ .ls{
+    padding-left: 74px;
+ }
+ .ld{
+    padding-left: 10px;
+ }
+ .lm{
+    padding-left: 26px;
+ }
+ button{
+    background-color: #f43397;
+    border: none;
+    height: 40px;
+    width: 90%;
+    margin: auto;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius:5px ;
+    color: white;
+ }
+ #sp{
+    color: red;
+ }
+ #t_price{
+    padding-left: 50px;
+ }
