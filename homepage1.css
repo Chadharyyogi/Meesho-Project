@@ -55,7 +55,7 @@ a{
     text-decoration: none;
 }
 .b1{
-    font-family: 'Maven Pro', sans-serif;
+    /* font-family: 'Maven Pro', sans-serif; */
     /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
     color: #f43397;
     line-height: 1px;
@@ -74,7 +74,7 @@ a{
     width: 50px;
     font-size:20px ;
     padding-left: 70px;
-    font-family: sans-serif;
+    /* font-family: sans-serif; */
     font-weight: bold; 
     
 }
@@ -122,7 +122,7 @@ a{
     flex-direction: row;
 }
 .banner>div{
-    font-family: Arial, Helvetica, sans-serif;
+    /* font-family: Arial, Helvetica, sans-serif; */
     background-color: #f9f9f9;
     height: 100%;
     width: 50%;
@@ -130,7 +130,7 @@ a{
 }
 h1{
     margin-left: 40px;
-    font-family: sans-serif;
+    /* font-family: sans-serif; */
     font-weight: bold;
 }
 img{
@@ -195,7 +195,7 @@ color: gray;
 .h1class{
 background-color:white;
 font-weight: 300;
-font-family: sans-serif;
+/* font-family: sans-serif; */
 color:black;
 }
 .h3class{
@@ -223,5 +223,8 @@ background-color:white;
     height: auto;
     width: 100%;
     border: 1 px solid red;
+}
+*{
+    font-family: -apple-system, "Helvetica Neue", sans-serif, "Mier Book";
 }
 
