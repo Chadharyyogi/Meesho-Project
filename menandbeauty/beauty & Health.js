@@ -17,6 +17,12 @@ var data = JSON.parse(localStorage.getItem("AllCloth")) || [
         price:259,
         discount:" ₹40 discount on 1st order",
     },
+    {
+        image_url:"https://th.bing.com/th/id/OIP.zwEvL_jNVRajQqv-cq8XHQHaFL?w=228&h=180&c=7&r=0&o=5&pid=1.7",
+        product_n:"Women's Health- Daily Vitamin Pack | Mongolian Store",
+        price:259,
+        discount:" ₹40 discount on 1st order",
+    }
 ];
 function SearchByPrice() {
     var selected = document.getElementById("Sort_by_price").value;

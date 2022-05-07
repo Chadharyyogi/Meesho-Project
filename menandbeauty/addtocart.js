@@ -17,6 +17,12 @@ var data = JSON.parse(localStorage.getItem("allproduct")) || [
         price:"422",
         discount:" ₹50 discount on 1st order",
     },
+    {
+        image_url:"https://th.bing.com/th/id/OIP.bJ-AVxezy7I-mmDzdNiTRwHaHa?w=185&h=185&c=7&r=0&o=5&pid=1.7",
+        product_n:"Mens Jean",
+        price:"790",
+        discount:" ₹50 discount on 1st order",
+    }
 ];
 function SearchByPrice() {
     var selected = document.getElementById("Sort_by_price").value;
