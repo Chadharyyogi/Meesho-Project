@@ -17,6 +17,60 @@ var data = JSON.parse(localStorage.getItem("AllCloth")) || [
         price:286,
         discount:" ₹40 discount on 1st order",
     },
+    {
+        image_url:"https://images.meesho.com/images/products/45327739/2giz3_512.jpg",
+        product_n:"Pink elephant motu patlu pikachu minion pink teddy blue teddy red teddy ",
+        price:250,
+        discount:" ₹40 discount on 1st order",
+    },
+    {
+        image_url:"https://images.meesho.com/images/products/82117320/gkmw4_512.jpg",
+        product_n:"Cute Classy Girls Frocks & Dresses",
+        price:351,
+        discount:" ₹50 discount on 1st order",
+    },
+    {
+        image_url:"https://images.meesho.com/images/products/33593414/cajsm_512.jpg",
+        product_n:"Double Bed Polyester Fordable Mosquito Net",
+        price:543,
+        discount:" ₹50 discount on 1st order",
+    },
+    {
+        image_url:"https://images.meesho.com/images/products/29674256/fc87e_512.jpg",
+        product_n:"Alluring Baby Mosquito Nets",
+        price:236,
+        discount:" ₹41 discount on 1st order",
+    },
+    {
+        image_url:"https://images.meesho.com/images/products/90923865/dbptm_512.jpg",
+        product_n:"apple shape kids led watch pack of 1 Black",
+        price:85,
+        discount:" ₹14 discount on 1st order",
+    },
+    {
+        image_url:"https://images.meesho.com/images/products/12461800/3df7c_512.jpg",
+        product_n:"Beautiful Kids Unisex Watches",
+        price:156,
+        discount:" ₹27 discount on 1st order",
+    },
+    {
+        image_url:"https://images.meesho.com/images/products/2244829/1_512.jpg",
+        product_n:"Trendy Plastic & Rubber Digital Kid's Watches Combo",
+        price:174,
+        discount:" ₹30 discount on 1st order",
+    },
+    {
+        image_url:"https://images.meesho.com/images/products/71997715/iddyx_512.jpg",
+        product_n:"barbie princess watch kids for girls unique watch with digital light",
+        price:142,
+        discount:" ₹24 discount on 1st order",
+    },
+    {
+        image_url:"https://images.meesho.com/images/products/68897335/fvhmo_512.jpg",
+        product_n:"pink rabbit",
+        price:136,
+        discount:" ₹24 discount on 1st order",
+    },
 ];
 function SearchByPrice() {
     var selected = document.getElementById("Sort_by_price").value;

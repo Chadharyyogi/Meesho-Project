@@ -15,4 +15,8 @@ left_price.textContent=data.price;
 
 var total = (80+(+data.price))-100;
 var t_price = document.querySelector("#total_price");
+<<<<<<< HEAD
 t_price.textContent=total;
+=======
+t_price.textContent=total;
+>>>>>>> 9ac1b963ac9a96fa3c909bee6a9af7550f671d68
