@@ -95,9 +95,6 @@ var data = JSON.parse(localStorage.getItem("AllCloth")) || [
         price: 653,
         discount: " ₹50 discount on 1st order",
     },
-
-
-
 ];
 function SearchByPrice() {
     var selected = document.getElementById("Sort_by_price").value;
@@ -141,7 +138,7 @@ function displayItem(data) {
         box.addEventListener("click", function () {
             // addToCart1(item)
             localStorage.setItem("cartItem", JSON.stringify(item))
-            window.location.href = "meesho_productDetail.html"
+            window.location.href = "meesho_productDetail.html";
             //console.log(item)
         })
 
