@@ -17,6 +17,61 @@ var data = JSON.parse(localStorage.getItem("allproduct")) || [
         price: "422",
         discount: " ₹50 discount on 1st order",
     },
+    {
+        image_url: "https://th.bing.com/th/id/OIP.bJ-AVxezy7I-mmDzdNiTRwHaHa?w=185&h=185&c=7&r=0&o=5&pid=1.7",
+        product_n: "Mens Jean",
+        price: "790",
+        discount: " ₹50 discount on 1st order",
+    },
+    {
+        image_url: "https://www.bing.com/th?id=OP.am63QqZ171yq4A474C474&o=5&pid=21.1&w=128&h=128&qlt=100&dpr=1&bw=6&bc=FFFFFF&c=17",
+        product_n: "Mens Cargo Pant",
+        price: "670",
+        discount: " ₹50 discount on 1st order",
+    },
+    {
+        image_url: "https://www.bing.com/th?id=OP.%2fwMzwKeS95g%2fjA474C474&w=120&h=120&c=17&o=5&pid=21.1",
+        product_n: "Legendary Men's Shirt",
+        price: "780",
+        discount: " ₹50 discount on 1st order",
+    },
+    {
+        image_url: "https://th.bing.com/th/id/OIP.X1uLojT1e4q1TAaq9Br3QwHaNK?w=185&h=329&c=7&r=0&o=5&pid=1.7",
+        product_n: "Men's Casual T'Shirt",
+        price: "350",
+        discount: " ₹50 discount on 1st order",
+    },
+    {
+        image_url: "https://th.bing.com/th/id/OIP.a3E_6tAlKxtdvstsl9ovEQHaMi?w=185&h=313&c=7&r=0&o=5&pid=1.7",
+        product_n: "Men's Jacket",
+        price: "1450",
+        discount: " ₹50 discount on 1st order",
+    },
+    {
+        image_url: "https://th.bing.com/th/id/OIP.nCVLunKMgGHFQ79gUtc5aQHaLH?w=185&h=278&c=7&r=0&o=5&pid=1.7",
+        product_n: "Mens Muffler",
+        price: "170",
+        discount: " ₹50 discount on 1st order",
+    },
+    {
+        image_url: "https://th.bing.com/th/id/OIP.2jEEPHRL9_Twfm1FjH4vUAHaJ3?w=185&h=247&c=7&r=0&o=5&pid=1.7",
+        product_n: "Legendary Men's Suit",
+        price: "4400",
+        discount: " ₹50 discount on 1st order",
+    },
+    {
+        image_url: "https://th.bing.com/th/id/OIP.06QZPDlV1dJi1XkTBmrm-gHaLp?w=185&h=291&c=7&r=0&o=5&pid=1.7",
+        product_n: "Men's Casual Sweater",
+        price: "650",
+        discount: " ₹50 discount on 1st order",
+    },
+    {
+        image_url: "https://m.media-amazon.com/images/I/71szqCoFfYL._AC_UX466_.jpg",
+        product_n: "Men's Hoodie",
+        price: "850",
+        discount: " ₹50 discount on 1st order",
+    }
+
 ];
 function SearchByPrice() {
     var selected = document.getElementById("Sort_by_price").value;

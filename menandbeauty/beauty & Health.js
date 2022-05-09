@@ -17,6 +17,61 @@ var data = JSON.parse(localStorage.getItem("AllCloth")) || [
         price: 259,
         discount: " ₹40 discount on 1st order",
     },
+    {
+        image_url: "https://th.bing.com/th/id/OIP.zwEvL_jNVRajQqv-cq8XHQHaFL?w=228&h=180&c=7&r=0&o=5&pid=1.7",
+        product_n: "Women's Health- Daily Vitamin Pack | Mongolian Store",
+        price: 259,
+        discount: " ₹40 discount on 1st order",
+    },
+    {
+        image_url: "https://www.bing.com/th?id=OP.C9KrDfGIMBlCMQ474C474&w=108&h=108&c=17&o=5&bw=6&bc=ffffff&pid=21.1",
+        product_n: "Herbal Essences Shine collection",
+        price: 373,
+        discount: "₹40 discount on 1st order",
+    },
+    {
+        image_url: "https://www.bing.com/th?id=OP.2akda9IRdmta5w474C474&o=5&pid=21.1&w=128&h=128&qlt=100&dpr=1&bw=6&bc=FFFFFF&c=17",
+        product_n: "Biotin Shampoo",
+        price: 162,
+        discount: "₹15 discount on 1st order",
+    },
+    {
+        image_url: "https://m.media-amazon.com/images/I/71VnWb+xsIL._SX522_.jpg",
+        product_n: "Meaningful Beauty Anti-Aging Daily Skincare System with Crème de Serum",
+        price: 1200,
+        discount: " ₹40 discount on 1st order",
+    },
+    {
+        image_url: "https://m.media-amazon.com/images/I/61PtavqaOeL._SX425_.jpg",
+        product_n: "Hydration Oasis Refreshing Gel Moisturizer by H2O+",
+        price: 759,
+        discount: " ₹40 discount on 1st order",
+    },
+    {
+        image_url: "https://m.media-amazon.com/images/I/71uwqbsjOzL._SX425_.jpg",
+        product_n: "L'Oreal Paris Revitalift Hyaluronic Acid + Caffeine Hydrating Eye Serum with Anti-Aging Moisturizer Sample",
+        price: 1500,
+        discount: "₹40 discount on 1st order",
+    },
+    {
+        image_url: "https://m.media-amazon.com/images/I/71N3y6keU9L._SX425_.jpg",
+        product_n: "Olay Age Defying Classic Eye Gel, 0.5 oz Packaging may Vary",
+        price: 660,
+        discount: "₹15 discount on 1st order",
+    },
+    {
+        image_url: "https://i.pinimg.com/originals/43/90/fa/4390fabb729191fb2cb449912cd1d581.jpg",
+        product_n: "CeraVe Aging and wrinkle cream",
+        price: 1200,
+        discount: " ₹40 discount on 1st order",
+    },
+    {
+        image_url: "https://i.pinimg.com/originals/43/90/fa/4390fabb729191fb2cb449912cd1d581.jpg",
+        product_n: "Best Wrinkle cream set",
+        price: 1450,
+        discount: " ₹40 discount on 1st order",
+    },
+
 ];
 function SearchByPrice() {
     var selected = document.getElementById("Sort_by_price").value;
